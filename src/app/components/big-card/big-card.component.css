@@ -1,0 +1,22 @@
+/* .big-card__photo { */
+/*   width: clamp(10rem, 100%, 37.5rem); */
+/* } */
+
+.big-card__photo img {
+  width: 100%;
+}
+
+.big-card__date p {
+  margin: 1rem 0;
+  color: grey;
+  font-size: 0.75rem;
+}
+
+.big-card__title h1 {
+  margin-block: 1rem;
+  font-size: 1.75rem;
+}
+
+.big-card__description {
+  color: grey;
+}

@@ -1,0 +1,41 @@
+.container__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin-inline: auto;
+}
+
+.content__title > h1 {
+  max-width: 45ch;
+}
+
+.content__author {
+  margin-block: 1.25rem;
+  color: grey;
+}
+
+.content__cover > img {
+  border-radius: 0.25rem;
+  width: clamp(30rem, 100%, 45rem);
+  margin-inline: auto;
+  margin-block: 1.25rem;
+}
+
+.content__text {
+  max-width: 90ch;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  white-space:break-spaces;
+}
+
+.content__url {
+  margin-top: 0.5rem;
+  color: grey;
+}
+
+.content__back-home {
+  margin-left: auto;
+  color: grey;
+}

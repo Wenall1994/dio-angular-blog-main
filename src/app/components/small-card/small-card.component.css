@@ -1,0 +1,20 @@
+.container__small-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.small-card__photo {
+  flex-shrink: 0;
+}
+
+.small-card__date p {
+  color: grey;
+  font-size: 0.75rem;
+}
+
+.small-card__title h2 {
+  margin-block: 0.75rem;
+  font-size: 1.25rem;
+  max-width: 40ch;
+}
